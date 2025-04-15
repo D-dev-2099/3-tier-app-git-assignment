@@ -23,3 +23,17 @@ Edit
 2. Create a hotfix branch to fix and test the issue
 3. Merge the hotfix back to `main`
 4. Add branch protection rules so no one can push directly to `main`
+3. 3. How do you use Git Tags in a CI/CD pipeline?
+Tags are like labels for versions. In DevOps, we use them to deploy specific versions of the code.
+
+✍️ What to write:
+markdown
+Copy
+Edit
+## 🧪 Git Tags in CI/CD
+
+- Tags like `v1.0` mark release versions
+- CI/CD tools (like GitHub Actions, Jenkins) can auto-deploy when a tag is pushed
+- Example: 
+   - Developer runs `git tag -a v1.0 -m "Release v1.0"`
+   - CI/CD picks this tag and deploys that version
